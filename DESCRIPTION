@@ -1,6 +1,6 @@
 Package: peacePHDs
 Title: A Set of Functions Needed for the Hackaton
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: c( 
     person("Eric G. E.", "Nilsen", , "e.g.e.nilsen@stv.uio.no", role = c("aut", "cre")),
     person("Amalie", "Nilsen",, "amalie.nilsen@stv.uio.no", role = c("aut")),
