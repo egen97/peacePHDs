@@ -4,7 +4,7 @@
 \alias{translate_colBind}
 \title{translator}
 \usage{
-translate_colBind(x, text = text)
+translate_colBind(x, text = message)
 }
 \arguments{
 \item{x}{A dataframe with the strings}
