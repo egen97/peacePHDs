@@ -2,10 +2,10 @@ Package: peacePHDs
 Title: A Set of Functions Needed for the Hackaton
 Version: 0.0.0.9000
 Authors@R:c( 
-    person("Eric G. E. ", "Nilsen",  "e.g.e.nilsen@stv.uio.no", role = c("aut", "cre")),
-    person("Amalie", "Nilsen", "amalie.nilsen@stv.uio.no", role = c("auth")),
-    person("Solveig", "Bjørkholt", "solveig.bjorkholt@stv.uio.no", role = "auth"),
-    person("Jonas","Schmid", "j.w.schmid@stv.uio.no", role = "auth")
+    person("Eric G. E.", "Nilsen", , "e.g.e.nilsen@stv.uio.no", role = c("aut", "cre")),
+    person("Amalie", "Nilsen",, "amalie.nilsen@stv.uio.no", role = c("aut")),
+    person("Solveig", "Bjørkholt",, "solveig.bjorkholt@stv.uio.no", role = "aut"),
+    person("Jonas","Schmid",, "j.w.schmid@stv.uio.no", role = "aut")
            )
 Description: What the package does (one paragraph).
 License: Apache License (>= 2)
