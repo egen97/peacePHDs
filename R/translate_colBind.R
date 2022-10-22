@@ -7,9 +7,9 @@
 #' @export
 #'
 #' @examples
-translate_colBind <- function(x, text = text) {
+translate_colBind <- function(x, text = message) {
   df <- googleLanguageR::gl_translate(
-    x$text,
+    x$message,
     target = "en"
   )
   df <- dplyr::select(df, translatedText, detectedSourceLanguage)
