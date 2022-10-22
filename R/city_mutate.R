@@ -8,9 +8,9 @@
 #'
 #' @examples
 city_mutate <- function(df, pattern = peacePHDs::ukr_cities) {
-  df$cities <- str_extract_all(df$translatedText, pattern)
-  df <- df %>%
-    rowwise() %>%
-    mutate(cities = paste(unique(cities), collapse = ", "))
+  df$cities <- stringr::str_extract_all(df$translatedText, pattern)
+  df <- df |>
+    dplyr::rowwise() |>
+    dplyr::mutate(cities = paste(unique(cities), collapse = ", "))
   return(df)
 }

@@ -8,9 +8,9 @@
 #'
 #' @examples
 oblast_mutate <- function(df, pattern = peacePHDs::ukr_oblast) {
-  df$oblast <- str_extract_all(df$translatedText, pattern)
-  df <- df %>%
-    rowwise() %>%
-    mutate(oblast = paste(unique(oblast), collapse = ", "))
+  df$oblast <- stringr::str_extract_all(df$translatedText, pattern)
+  df <- df |>
+    dplyr::rowwise() |>
+    dplyr::mutate(oblast = paste(unique(oblast), collapse = ", "))
   return(df)
 }
