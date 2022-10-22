@@ -13,6 +13,6 @@ translate_colBind <- function(x, text = text) {
     target = "en"
   )
   df <- dplyr::select(df, translatedText, detectedSourceLanguage)
-  df <- bind_cols(df, x)
+  df <- dplyr::bind_cols(df, x)
   return(df)
 }
