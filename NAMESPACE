@@ -3,3 +3,4 @@
 export(city_mutate)
 export(oblast_mutate)
 export(translate_colBind)
+export(ukr_minfin_extractor)
