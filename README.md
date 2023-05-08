@@ -26,3 +26,5 @@ library(peacePHDs)
 ## basic example code
 translated_texts <- lapply(telegram_posts, peacePHDs::translate_colBind)
 ```
+ Nilsen E, Nilsen A, Bjørkholt S, Schmid J (2022). _peacePHDs: A Set of Functions Needed for the Hackaton_.
+  R package version 0.0.0.9000.
